@@ -9,15 +9,28 @@
   border-bottom: solid #2f80ed 0.125em;
 }
 
-/* .input-row {
+.todo-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-.input-row div:first-child {
-  width: 75%;
+  cursor: pointer;
+  align-items: center;
+  font-size: 1em;
 }
 
-.input-row:nth-child(1) button {
-  padding: 5px 50px;
-} */
+.todo-name {
+  margin-left: 0.3em;
+}
+.todo-name__clicked {
+  margin-left: 0.3em;
+  text-decoration: line-through;
+}
+
+.unlink {
+  text-decoration: none;
+  color: black;
+}
+
+.unlink:hover {
+  text-decoration: none;
+  color: black;
+}
