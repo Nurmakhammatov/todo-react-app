@@ -7,12 +7,11 @@ import { Link } from "react-router-dom";
 export default function Todo() {
   const [todoList, setTodoList] = useState([]);
   const [link, setLink] = useState(1);
-  // const [clicked, setClicked] = useState(false);
+
   const handleActive = (e) => {
     setLink(e);
   };
 
-  console.log(todoList);
   return (
     <div className="container">
       <div className="row">
