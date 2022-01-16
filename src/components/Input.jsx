@@ -18,7 +18,7 @@ export default function Input({ setTodoList }) {
   return (
     <div className="container">
       <div className="row d-flex justify-content-between">
-        <div className="col-10 m-0 p-0">
+        <div className="col-9 m-0 p-0">
           <input
             placeholder="add details"
             value={input}
@@ -33,7 +33,7 @@ export default function Input({ setTodoList }) {
           />
         </div>
         <button
-          style={{ width: "15%" }}
+          style={{ width: "22.5%" }}
           onClick={handleAddTodos}
           className="btn btn-primary mb-3 mt-3 fs-5"
         >

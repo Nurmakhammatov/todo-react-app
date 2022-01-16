@@ -11,7 +11,8 @@ export default function Todo() {
   const handleActive = (e) => {
     setLink(e);
   };
-
+  // localStorage.setItem("TodoList", todoList.toString());
+  console.log(todoList);
   return (
     <div className="container">
       <div className="row">
